@@ -4,7 +4,7 @@ function carregar() {
     const data = new Date()
     const hora = data.getHours()
     const minutes = data.getMinutes()
-    msg.innerHTML = `Agora são ${hora}:${minutes}.`
+    msg.innerHTML = `Agora são ${hora}:${minutes}`
     if (hora >= 6 && hora < 13) {
         img.src = '../fotos/manha.png'
         document.body.style.background = 'radial-gradient(circle at top,rgb(166, 220, 243)45%, rgb(138, 196, 220)60%, rgb(54, 78, 88))'
