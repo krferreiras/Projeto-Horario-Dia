@@ -1,7 +1,11 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
 body {
     background: radial-gradient(circle at top, rgb(75, 89, 116)45%, rgb(31, 40, 57)70%, black);
     font:bold 1.1em Times;
-    height: 98vh;
+    height: 99vh;
 }
 
 header {
@@ -15,7 +19,7 @@ header {
 main {
     border-radius: 10px;
     padding: 15px;
-    width: 400px;
+    max-width: 400px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.493);
     background: white;
