@@ -1,12 +1,7 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 body {
     background: radial-gradient(circle at top, rgb(75, 89, 116)45%, rgb(31, 40, 57)70%, black);
     font:bold 1.1em Times;
-    height: 100vh;
+    height: 98vh;
 }
 
 header {
