@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: radial-gradient(circle at top, rgb(75, 89, 116)45%, rgb(31, 40, 57)70%, black);
+    font:bold 1.1em Times;
+    height: 99vh;
+}
+
+header {
+    margin: 10px;
+    font: bolder 1em;
+    color: white;
+    text-align: center;
+
+}
+
+main {
+    border-radius: 10px;
+    padding: 15px;
+    width: 450px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.493);
+    background: white;
+}
+
+div {
+    text-align: center;
+    padding: 5px;
+}
+
+footer {
+    margin: 10px;
+    font:italic 1em Arial;
+    color: white;
+    text-align: center;
+}
